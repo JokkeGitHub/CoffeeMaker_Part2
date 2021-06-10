@@ -88,7 +88,7 @@ namespace H2_CoffeeMaker
         public void AddWater()
         {
             WaterContainerInMl += 200;
-            Console.WriteLine("Added water for 1 cup of coffee. (200ml)");
+            Console.WriteLine("Added water for 1 cup. (200ml)");
         }
 
         public void AddIngredient()
