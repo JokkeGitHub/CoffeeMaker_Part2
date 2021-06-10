@@ -9,11 +9,11 @@ namespace H2_CoffeeMaker
             CoffeeMaker siemensCoffeeMaker = new CoffeeMaker("", 0,0,0, false, true, false);
 
             siemensCoffeeMaker.AddWater();
-            siemensCoffeeMaker.AddGroundCoffee();
+            siemensCoffeeMaker.AddIngredient();
             siemensCoffeeMaker.AddFilter();
-            siemensCoffeeMaker.AddGroundCoffee();
+            siemensCoffeeMaker.AddIngredient();
             siemensCoffeeMaker.TurnOn();
-            siemensCoffeeMaker.BrewCoffee();
+            siemensCoffeeMaker.BrewHotBeverage();
             siemensCoffeeMaker.TurnOff();
         }
     }

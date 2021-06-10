@@ -91,7 +91,7 @@ namespace H2_CoffeeMaker
             Console.WriteLine("Added water for 1 cup of coffee. (200ml)");
         }
 
-        public void AddGroundCoffee()
+        public void AddIngredient()
         {
             if (FilterInContainer == true)
             {
@@ -104,7 +104,7 @@ namespace H2_CoffeeMaker
             }
         }
 
-        public void BrewCoffee()
+        public void BrewHotBeverage()
         {
             if (TurnedOn == true)
             {
