@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace H2_CoffeeMaker
+namespace H2_CoffeeMaker_Part2
 {
     public abstract class Machine
     {

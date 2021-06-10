@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace H2_CoffeeMaker
+namespace H2_CoffeeMaker_Part2
 {
-    public class CoffeeMaker : Machine
+    public class CoffeeMaker : Machine, ICoffee, ITea
     {
         // This class is responsible for the object class "CoffeMaker"
 
@@ -127,6 +127,16 @@ namespace H2_CoffeeMaker
         {
             FilterInContainer = true;
             Console.WriteLine("Added filter to the ingrdient container.");
+        }
+
+        void ICoffee.AddCoffeeAsIngredient()
+        {
+            Ingredient = "Coffee";
+        }
+
+        void ITea.AddTeaAsIngredient()
+        {
+            Ingredient = "Tea";
         }
     }
 }
